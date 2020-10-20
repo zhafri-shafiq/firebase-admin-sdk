@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "zhafri-shafiq\\firebase-admin-sdk\\ServiceProvider"
+                "ZhafriShafiq\\FirebaseAdminSdk\\ServiceProvider"
             ],
             "aliases": {
                 "FirebaseMessaging": "ZhafriShafiq\\FirebaseAdminSdk\\Facades\\FirebaseMessaging"
