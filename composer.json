@@ -1,0 +1,33 @@
+{
+    "name": "zhafri-shafiq/laravel-firebase-admin-sdk",
+    "description": "Firebase Admin SDK",
+    "authors": [
+        {
+            "name": "Zhafri Shafiq",
+            "email": "zhafrishafiq@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "7.1",
+        "kreait/firebase-php": "4.43",
+        "illuminate/contracts": "5.6",
+        "illuminate/support": "5.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "zhafri-shafiq\\laravel-firebase-admin-sdk\\ServiceProvider"
+            ],
+            "aliases": {
+                "FirebaseMessaging": "ZhafriShafiq\\FirebaseAdminSdk\\Facades\\FirebaseMessaging",
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ZhafriShafiq\\FirebaseAdminSdk\\": "src/"
+        }
+    }
+
+}
