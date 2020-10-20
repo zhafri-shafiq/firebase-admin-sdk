@@ -20,7 +20,7 @@
                 "zhafri-shafiq\\laravel-firebase-admin-sdk\\ServiceProvider"
             ],
             "aliases": {
-                "FirebaseMessaging": "ZhafriShafiq\\FirebaseAdminSdk\\Facades\\FirebaseMessaging",
+                "FirebaseMessaging": "ZhafriShafiq\\FirebaseAdminSdk\\Facades\\FirebaseMessaging"
             }
         }
     },
