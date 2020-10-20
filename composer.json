@@ -7,7 +7,7 @@
             "email": "zhafrishafiq@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": "7.1",
         "kreait/firebase-php": "4.43",
