@@ -28,6 +28,6 @@
         "psr-4": {
             "ZhafriShafiq\\FirebaseAdminSdk\\": "src/"
         }
-    }
-
+    },
+    "license": "proprietary"
 }
