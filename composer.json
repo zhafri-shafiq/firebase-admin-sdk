@@ -1,5 +1,5 @@
 {
-    "name": "zhafri-shafiq/laravel-firebase-admin-sdk",
+    "name": "zhafri-shafiq/firebase-admin-sdk",
     "description": "Firebase Admin SDK",
     "authors": [
         {
@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "zhafri-shafiq\\laravel-firebase-admin-sdk\\ServiceProvider"
+                "zhafri-shafiq\\firebase-admin-sdk\\ServiceProvider"
             ],
             "aliases": {
                 "FirebaseMessaging": "ZhafriShafiq\\FirebaseAdminSdk\\Facades\\FirebaseMessaging"
